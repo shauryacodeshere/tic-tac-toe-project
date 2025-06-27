@@ -21,14 +21,13 @@ body{
     align-items: center;
 }
 
-.game{
-    height: 60vmin;
-    width: 60vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5em;
+    width: 60vmin;
+    height: 60vmin;
+    margin: auto;
 }
 
 .box{
